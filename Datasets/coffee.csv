@@ -1,40 +1,184 @@
-﻿"country","totCons2019","perCapitaCons2016"
-"United States","27310","9.2600"
-"Germany","8670","12.1300"
-"Japan","7551",""
-"France","6192","11.9000"
-"Italy","5469","13"
-"Russia","4820",""
-"United Kingdom","3770",""
-"Spain","3253","9.9200"
-"Poland","2501",""
-"Netherlands","2030","18.5200"
-"Sweden","1769","18"
-"Finland","1348","26.4500"
-"Belgium","1185","15"
-"Austria","1173","13.4500"
-"Greece","1139","11.9000"
-"Romania","1108",""
-"Switzerland","1073","17.4200"
-"Portugal","931","9.4800"
-"Czech Republic","843",""
-"Denmark","778","19.1800"
-"Norway","771","21.8200"
-"Tunisia","508",""
-"Bulgaria","423",""
-"Hungary","418",""
-"Croatia","381","11.2400"
-"Ireland","370",""
-"Lithuania","251",""
-"Slovakia","227",""
-"Luxembourg","224","14.3300"
-"Slovenia","204","12.7900"
-"Estonia","123","9.9200"
-"Cyprus","115","10.8000"
-"Latvia","114",""
-"Malta","23",""
-"Iceland","","19.8400"
-"Bosnia and Herzegovina","","13.6700"
-"Lebanon","","10.5800"
-"Canada","","14.3300"
-"Brazil","","12.7900"
+"country","coffeeConsumptionByCountry_perCapitaCons2020","coffeeConsumptionByCountry_perCapitaCons2016"
+"Albania",4.51,
+"Algeria",0.97,
+"Angola",0.33,
+"Antigua and Barbuda",6.07,
+"Argentina",2.32,
+"Armenia",8.07,
+"Australia",5.74,
+"Austria",8.46,13.45
+"Azerbaijan",1.55,
+"Bahamas",2.16,
+"Bahrain",7.52,
+"Bangladesh",0.03,
+"Barbados",6.94,
+"Belarus",4.94,
+"Belgium",6.05,15
+"Belize",16.15,
+"Benin",0.45,
+"Bhutan",0.98,
+"Bolivia",2.25,
+"Bosnia and Herzegovina",14.65,13.67
+"Botswana",2.07,
+"Brazil",1.94,12.79
+"Bulgaria",10.8,
+"Burkina Faso",0.37,
+"Burundi",0.56,
+"Cambodia",0.61,
+"Cameroon",0.58,
+"Canada",7,14.33
+"Cape Verde",2.28,
+"Central African Republic",1.76,
+"Chile",1.37,
+"China",0.29,
+"China",0.19,
+"Colombia",0.69,
+"Comoros",0.49,
+"Republic of the Congo",0.66,
+"Costa Rica",4.22,
+"Croatia",9.16,11.24
+"Cuba",1.3,
+"Cyprus",13.28,10.8
+"Czech Republic",2.33,
+"Denmark",12.45,19.18
+"Dominica",3,
+"Dominican Republic",2.64,
+"DR Congo",0.49,
+"Ecuador",0.01,
+"Egypt",0.72,
+"El Salvador",3.31,
+"Estonia",16.8,9.92
+"Eswatini",0.74,
+"Ethiopia",1.17,
+"Fiji",16.84,
+"Finland",11.2,26.45
+"France",5.97,11.9
+"French Polynesia",10.54,
+"Gabon",0.28,
+"Gambia",0.29,
+"Georgia",10.37,
+"Germany",6.09,12.13
+"Ghana",0.01,
+"Greece",10.13,11.9
+"Grenada",4.39,
+"Guatemala",1.01,
+"Guinea",2.64,
+"Guinea-Bissau",0.17,
+"Guyana",8.22,
+"Haiti",1.7,
+"Honduras",2.98,
+"Hong Kong",13.84,
+"Hungary",2,
+"Iceland",12.55,19.84
+"India",0,
+"Indonesia",0.16,
+"Iran",0.3,
+"Iraq",0.87,
+"Ireland",7.77,
+"Israel",6.57,
+"Italy",5.51,13
+"Ivory Coast",0.46,
+"Jamaica",2.5,
+"Japan",4.1,
+"Jordan",12.01,
+"Kazakhstan",4.85,
+"Kenya",0.12,
+"Kiribati",0.88,
+"Kuwait",9.08,
+"Kyrgyzstan",1.36,
+"Laos",15.41,
+"Latvia",12.76,
+"Lebanon",17.34,10.58
+"Lesotho",0.51,
+"Liberia",0.47,
+"Libya",5.23,
+"Lithuania",16.99,
+"Luxembourg",25.34,14.33
+"Macau",15.51,
+"Madagascar",1.45,
+"Malawi",0.45,
+"Malaysia",0,
+"Maldives",22.32,
+"Mali",0.28,
+"Malta",1.38,
+"Mauritania",0.38,
+"Mauritius",3.66,
+"Mexico",0.66,
+"Micronesia",4,
+"Moldova",9.29,
+"Mongolia",7.21,
+"Montenegro",8.51,
+"Morocco",1.27,
+"Mozambique",0.1,
+"Myanmar",0.96,
+"Namibia",2.48,
+"Nauru",1.43,
+"Nepal",0.08,
+"Netherlands",5.07,18.52
+"New Caledonia",11.21,
+"New Zealand",13.34,
+"Nicaragua",0.11,
+"Niger",0.06,
+"Nigeria",0.04,
+"North Korea",0.27,
+"North Macedonia",9.05,
+"Norway",11.43,21.82
+"Oman",4.78,
+"Pakistan",0.01,
+"Panama",2.05,
+"Papua New Guinea",3.49,
+"Paraguay",0.67,
+"Peru",5.5,
+"Philippines",5.83,
+"Poland",2.23,
+"Portugal",5.05,9.48
+"Qatar",12.09,
+"Romania",6.9,
+"Russia",2.5,
+"Rwanda",0.02,
+"Saint Kitts and Nevis",0,
+"Saint Lucia",0.94,
+"Saint Vincent and the Grenadines",3.62,
+"Samoa",16.28,
+"Sao Tome and Principe",0.19,
+"Saudi Arabia",6.22,
+"Senegal",0.73,
+"Serbia",13.54,
+"Seychelles",9.02,
+"Sierra Leone",0.1,
+"Slovakia",11.64,
+"Slovenia",10.56,12.79
+"Solomon Islands",3.3,
+"South Africa",2.07,
+"South Korea",2.44,
+"South Sudan",0.1,
+"Spain",2.88,9.92
+"Sri Lanka",0.29,
+"Sudan",0.19,
+"Suriname",6.36,
+"Sweden",10.81,18
+"Switzerland",6.76,17.42
+"Syria",1.13,
+"Taiwan",1.7,
+"Tajikistan",0.25,
+"Tanzania",0.01,
+"Thailand",0.46,
+"Timor-Leste",10.56,
+"Togo",1.76,
+"Trinidad and Tobago",9.57,
+"Tunisia",3.59,
+"Turkey",1.97,
+"Turkmenistan",3.95,
+"Uganda",0.06,
+"Ukraine",2.95,
+"United Arab Emirates",1.59,
+"United Kingdom",2.68,
+"United States",4.71,9.26
+"Uruguay",3.19,
+"Uzbekistan",0.88,
+"Vanuatu",2.83,
+"Venezuela",1.86,
+"Vietnam",5.77,
+"Yemen",0.59,
+"Zambia",0.09,
+"Zimbabwe",0.15,
