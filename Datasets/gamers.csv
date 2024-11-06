@@ -1,21 +1,30 @@
-Country,Number of Gamers (millions),Spend per Player (USD)
-China,668,65.4
-India,402,3.83
-United States of America,214,221
-Indonesia,148,12.6
-Brazil,108,23.7
-Japan,73.6,249
-Mexico,72.4,35.4
-Germany,52.1,126
-Turkey,50,24.2
-UK,40.3,136
-France,39.8,105
-Thailand,38.9,28.8
-Italy,36.9,85.7
-South Korea,33.6,218
-Spain,33.3,71.6
-Saudi Arabia,24.8,45.6
-Canada,22.8,143
-Taiwan,17.9,129
-Australia,14.8,157
-Netherlands,10.1,116
+№,Country,Games Market Revenue (mln USD),Internet Penetration (%),Number of Gamers (millions),Mobile Market (mln USD),Average Yearly Spending on Mobile Games (USD),EF EPI (English Proficiency Index)
+1,China,"36,540",59.30%,640,"21,140",14.69,53.44 (Moderate)
+2,United States of America,"36,500",86.50%,215.15,"9,937",30.02,100.00 (Native)
+3,Japan,"18,683",93.20%,79.6,"6,528.40",51.65,51.51 (Low)
+4,South Korea,"6,194",86.50%,41.9,"5,810",113.48,55.04 (Moderate)
+5,Germany,"6,000",94.50%,58.59,606.3,7.24,63.77 (Very High)
+6,UK,"5,600",90.80%,46.1,"1,240",18.29,100.00 (Native)
+7,France,"4,810",92.60%,48.9,"1,231",18.88,57.25 (Moderate)
+8,Canada,"2,700",91.60%,29.1,309.2,8.2,100.00 (Native)
+9,Spain,"2,583",91%,37.8,301,6.45,55.46 (Moderate)
+10,Italy,"2,363.25",90.50%,47.7,"1,344",22.25,55.31 (Moderate)
+11,Russia,"2,000",81%,66,700,4.8,52.14 (Low)
+12,Taiwan,"1,992",85.20%,20.9,"1,023",42.98,54.18 (Moderate)
+13,Australia,"1,900",79%,18.1,959,38.06,100 – Australian English
+14,Brazil,"1,600",70.20%,180.2,334.1,1.58,50.10 (Low)
+15,India,"1,500",40.50%,1237.1,"1,300",0.94,55.49 (Moderate)
+16,Philippines,"1,500",72.10%,102.93,437,3.99,60.14 (High)
+17,Indonesia,"1,084",62.70%,251.16,"1,000",3.66,50.06 (Low)
+18,Turkey,830,81.90%,34,400,4.74,46.81 (Very Low)
+19,Saudi Arabia,758,89.39%,30.9,158,4.54,41.60 (Very Low)
+20,Malaysia,673,81.40%,20.1,504.75,15.63,58.55 (High)
+21,Thailand,667,81.60%,49.4,446.89,6.4,47.61 (Very Low)
+22,Poland,596,72.70%,19,216.2,5.72,63.76 (Very High)
+23,Hong Kong,502,91%,6.1,31.5,4.26,55.63 (Moderate)
+24,Vietnam,472,70.40%,87.57,77.8,0.8,51.57 (Low)
+25,Iran,458,80.50%,30,198,2.36,48.69 (Low)
+26,United Arab Emirates,342,99%,7.84,78.7,8.03,48.19 (Very Low)
+27,Singapore,319,84%,4.8,52,8.97,66.82 (Very High)
+28,South Africa,224.58,67.70%,50.9,43.6,0.74,65.38 (Very High)
+29,Nigeria,85,61.10%,–,56,0.27,58.26 (High)
