@@ -6,7 +6,7 @@
 <meta content="yes" name="apple-mobile-web-app-capable"/>
 <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
 <title>DV_assesment slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
-  import mermaid from 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.7.0/mermaid.esm.min.mjs';
+  import mermaid from 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.6.0/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
 </script>
 <!-- General and theme style sheets -->
@@ -7440,17 +7440,18 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Bad-habbits-vs-Education">Bad habbits vs Education<a class="anchor-link" href="#Bad-habbits-vs-Education">¶</a></h1><p>This guided project aims to explore whether there is a connection between "bad" habits or behaviors that may negatively impact people's health. The habits to study are:</p>
+<h1 id="Bad-habits-vs-Education">Bad habits vs Education<a class="anchor-link" href="#Bad-habits-vs-Education">¶</a></h1><p>This guided project aims to explore whether there is a connection between the student population and "bad" habits or behaviors that may negatively impact people's health. The habits to study are:</p>
 <ul>
 <li>Coffee adiction.</li>
 <li>Smoking.</li>
 <li>Videogames adiction.</li>
 </ul>
-<p><em>Press the '↓' key</em></p>
+<p>Understanding the demographic factors of this habits in a culture and the connection with the students population could help society to understand if this bad habits or missused habits are directly related to the stress faced by higher education students. Suggesting the need to restructure the current higher education programs in places where this adictions are higher. It is important to highlight that due to lack of recent research and measures in this topics the data sources are between 2019 and 2020.</p>
+<p><em>Press the '↓' key</em> to see what python libraries we will use for this project.</p>
 </div>
 </div>
 </div>
-</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7458,9 +7459,7 @@ main {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#LIBRARIES</span>
-
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span> <span class="c1">#For reading and handling CSV files.</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span> <span class="c1">#For reading and handling CSV files.</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>  <span class="c1"># For numerical operations and handling missing values.</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>  <span class="c1"># For creating basic visualizations.</span>
 <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>  <span class="c1"># For advanced data visualization used in the infographic.</span>
@@ -7476,19 +7475,74 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>The code above list all the python libraries we will be using and what they are used for.</p>
+<h2 id="Content:">Content:<a class="anchor-link" href="#Content:">¶</a></h2><ol>
+<li>Introduction.</li>
+<li>Load Data.</li>
+</ol>
 </div>
 </div>
 </div>
-</div></div></section></section><section><section>
+</div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Load-Data">Load Data<a class="anchor-link" href="#Load-Data">¶</a></h2><p>Using Pandas library "pd" we will convert the chosen datasets for this project into variables for better handling. Using the command "pd.read_csv()" as shown below.</p>
+<p>Also feel free to visit <strong><a href="https://github.com/DefoNotGus/DV_assesment">https://github.com/DefoNotGus/DV_assesment</a></strong> To find the project's notebook</p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Load-Data">Load Data<a class="anchor-link" href="#Load-Data">¶</a></h2><h3 id="The-datasets-used-to-study-the-habits-are:">The datasets used to study the habits are:<a class="anchor-link" href="#The-datasets-used-to-study-the-habits-are:">¶</a></h3><ol>
+<li><strong>Coffee Consumption Dataset</strong>: Lists coffee consumption by country with extensive coverage.</li>
+</ol>
+<ul>
+<li><strong>Source</strong>: <a href="https://www.kaggle.com/datasets/nurielreuven/coffee-consumption-by-country-2022/data">Kaggle</a></li>
+</ul>
+<ol start="2">
+<li><strong>Smoking Rates Dataset</strong>: Provides a chronological overview of smoking rates in many countries, sourced via a Google search.</li>
+</ol>
+<ul>
+<li><strong>Source</strong>: <a href="https://worldpopulationreview.com/country-rankings/smoking-rates-by-country">World Population Review</a></li>
+</ul>
+<ol start="3">
+<li><strong>Gamers Market Dataset</strong>: Self-created CSV, compiles 2019 gaming market overview in many countries, offering chronological alignment with the other datasets.</li>
+</ol>
+<ul>
+<li><strong>Source</strong>: <a href="https://allcorrectgames.com/insights/a-global-research-of-2019-games-market/">Allcorrect Games</a></li>
+</ul>
 <p><em>Press the '↓' key</em></p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="The-datasets-used-to-analyze-students-and-enrollment-data-are:">The datasets used to analyze students and enrollment data are:<a class="anchor-link" href="#The-datasets-used-to-analyze-students-and-enrollment-data-are:">¶</a></h3><ol>
+<li><strong>Education Statistics Dataset</strong>: A massive dataset with student enrollment data by region, sourced using the World Bank DataBank tool.</li>
+</ol>
+<ul>
+<li><strong>Source</strong>: <a href="https://databank.worldbank.org/indicator/">World Bank</a></li>
+</ul>
+<ol start="2">
+<li><strong>Students Dataset</strong>: Provides country-specific enrollment data filtered to align with the habits datasets, sourced from the OECD Data Explorer.</li>
+</ol>
+<ul>
+<li><strong>Source</strong>: <a href="https://data-explorer.oecd.org/">OECD Data Explorer</a></li>
+</ul>
+<p>Datasets are loaded into variables using <code>pd.read_csv()</code> from the Pandas library.
+<em>Press the '↓' key</em></p>
 </div>
 </div>
 </div>
@@ -7505,6 +7559,7 @@ main {
 <span class="n">smoking_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'Datasets/smoking.csv'</span><span class="p">)</span>
 <span class="n">gamers_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'Datasets/gamers.csv'</span><span class="p">)</span>
 <span class="n">edstats_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'Datasets/edstats.csv'</span><span class="p">)</span>
+<span class="n">students_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'Datasets/students.csv'</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -7517,7 +7572,48 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Data-Previsualization.">Data Previsualization.<a class="anchor-link" href="#Data-Previsualization.">¶</a></h2><p>Before going to the next step, it's important to display all the datasets head (first 5 columns), the size of the dataset using the method "shape" and list their features or column headers in order to explain the aim of each dataset.</p>
+<h2 id="Visualization-Plan.">Visualization Plan.<a class="anchor-link" href="#Visualization-Plan.">¶</a></h2><p>Before going to the next step, it's important to display all the datasets head (first 2 columns), the size of the dataset using the method "shape" and list their features or column headers in order to explain the aim of each dataset.</p>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Coffee_df:">Coffee_df:<a class="anchor-link" href="#Coffee_df:">¶</a></h3><p>This dataset contains information on coffee consumption per capita (in kilograms) for 183 countries in the years 2020 and 2016. It is useful for identifying countries with high coffee consumption. Additional details about this dataset and others can be found in the reference section.</p>
+</div>
+</div>
+</div>
+</div></div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Display head (2 first rows)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Coffee DataFrame:"</span><span class="p">,</span><span class="n">coffee_df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">2</span><span class="p">),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="c1">#size and features display </span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Size:</span><span class="se">\n</span><span class="s2">Rows: </span><span class="si">{</span><span class="n">coffee_df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">, Columns: </span><span class="si">{</span><span class="n">coffee_df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Coffee columns:"</span><span class="p">,</span> <span class="n">coffee_df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">tolist</span><span class="p">(),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Smoking_df:">Smoking_df:<a class="anchor-link" href="#Smoking_df:">¶</a></h3><p>This dataset provides smoking rates (as a percentage of the population) for 164 countries in the years 2020, 2021, and 2022. It also includes data broken down by gender (male and female). The dataset can be used to compare smoking rates across countries and analyze gender differences in cigarette consumption.</p>
 </div>
 </div>
 </div>
@@ -7529,69 +7625,28 @@ main {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Display head (5 first rows)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Coffee DataFrame:"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">coffee_df</span><span class="o">.</span><span class="n">head</span><span class="p">(),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
-
-<span class="c1">#size display</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Size:</span><span class="se">\n</span><span class="s2">Rows: </span><span class="si">{</span><span class="n">coffee_df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">, Columns: </span><span class="si">{</span><span class="n">coffee_df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-
-
-<span class="c1">#Display features</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"coffee columns:"</span><span class="p">,</span> <span class="n">coffee_df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">tolist</span><span class="p">(),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>coffee_df</strong></p>
-<p>This simple dataset has a list of a 183 countries and their coffee consumption per capita in the years 2020 and 2016 in KG. It will be usefull to recognize the countries with a high coffee consumption. more information about this dataset will be found in the reference area along with all the other datasets information.</p>
-</div>
-</div>
-</div>
-</div></div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Display head (5 first rows)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Smoking DataFrame:"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">smoking_df</span><span class="o">.</span><span class="n">head</span><span class="p">(),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
-
-<span class="c1">#size display</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Display head (2 first rows)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Smoking DataFrame:"</span><span class="p">,</span> <span class="n">smoking_df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">2</span><span class="p">),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+<span class="c1"># Size and features display</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Size:</span><span class="se">\n</span><span class="s2">Rows: </span><span class="si">{</span><span class="n">smoking_df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">, Columns: </span><span class="si">{</span><span class="n">smoking_df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-
-
-<span class="c1">#Display features</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"smoking columns:"</span><span class="p">,</span> <span class="n">smoking_df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">tolist</span><span class="p">(),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Smoking columns:"</span><span class="p">,</span> <span class="n">smoking_df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">tolist</span><span class="p">(),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 </div>
 </div>
-</div>
+</div></div></section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>smoking_df</strong>:</p>
-<p>This dataset shows the smoking rates or pocentage in population of 164 countries, in the years 2022, 2021 and 2020. It also shows the data between male and female of those countries. This can be used to compare the differences in consumption between countries and the diferences in consumption of cigarretes by gender.</p>
+<h3 id="Gamers_df:">Gamers_df:<a class="anchor-link" href="#Gamers_df:">¶</a></h3><p>This dataset, which I created myself from a website, contains data for 29 countries, including key metrics such as market revenue in the video games industry (in millions of dollars), internet penetration (percentage), number of gamers (in millions), mobile market revenue (in millions of dollars), yearly spending on mobile games per user (in dollars), and English proficiency (average level of English speakers). While the dataset is rich in information, it is limited in the number of countries covered. Nevertheless, it is valuable for analyzing the gaming population across different countries.</p>
 </div>
 </div>
 </div>
-</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7599,33 +7654,28 @@ main {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Display head (5 first rows)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Gamers DataFrame:"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">gamers_df</span><span class="o">.</span><span class="n">head</span><span class="p">(),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
-
-<span class="c1">#size display</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Display head (2 first rows)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Gamers DataFrame:"</span><span class="p">,</span> <span class="n">gamers_df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">2</span><span class="p">),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+<span class="c1"># Size display and  features</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Size:</span><span class="se">\n</span><span class="s2">Rows: </span><span class="si">{</span><span class="n">gamers_df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">, Columns: </span><span class="si">{</span><span class="n">gamers_df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-
-<span class="c1">#Display features</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"gamers columns:"</span><span class="p">,</span> <span class="n">gamers_df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">tolist</span><span class="p">(),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Gamers columns:"</span><span class="p">,</span> <span class="n">gamers_df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">tolist</span><span class="p">(),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 </div>
 </div>
-</div>
+</div></div></section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>gamers_df</strong></p>
-<p>This table offers data bout 29 countries, the number of market revenue  in the videogames industry in millions of dollars, the internet penetration in a porcentage, the number of gamers in millions, the revenue in the mobile market in millions of dollars, the yearly spending on Mobile Games per user in dollars and the English Proficiency or average of people that speaks english. This dataset is rich on information but reduced in countries when it comes to the number of coutries. However it can be used to analyze the amount of gamers per country mainly.</p>
+<h3 id="Edstats_df:">Edstats_df:<a class="anchor-link" href="#Edstats_df:">¶</a></h3><p>This dataset contains extensive data collected in series, not limited to country-level information, making it suitable for analyzing specific details by region. For this project, we will primarily focus on analyzing the higher education population per country, filtering and selecting the most relevant series for our analysis</p>
 </div>
 </div>
 </div>
-</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7633,41 +7683,54 @@ main {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Display head (5 first rows)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Students Enrolment DataFrame:"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">edstats_df</span><span class="o">.</span><span class="n">head</span><span class="p">(),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
-
-<span class="c1">#size display</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Size:</span><span class="se">\n</span><span class="s2">Rows : </span><span class="si">{</span><span class="n">edstats_df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">, Columns: </span><span class="si">{</span><span class="n">edstats_df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-
-<span class="c1">#Display features</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"student enrolment columns:"</span><span class="p">,</span> <span class="n">edstats_df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">tolist</span><span class="p">(),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Display head (2 first rows)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Students Enrolment DataFrame:"</span><span class="p">,</span> <span class="n">edstats_df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">2</span><span class="p">),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+<span class="c1"># Size display and features</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Size:</span><span class="se">\n</span><span class="s2">Rows: </span><span class="si">{</span><span class="n">edstats_df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">, Columns: </span><span class="si">{</span><span class="n">edstats_df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Student enrolment columns:"</span><span class="p">,</span> <span class="n">edstats_df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">tolist</span><span class="p">(),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 </div>
 </div>
-</div>
+</div></div></section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>edstats_df</strong></p>
-<p>This dataset shows a huge amount of data as the collection was made per series and is not only designed per country, therefore we can use it for analyzing very specific information per country. In this project we will mainly use it to analyze the higher education population per country. We will have to filter and study all the different series and use the most relevant ones for the project.</p>
+<h3 id="Students_df">Students_df<a class="anchor-link" href="#Students_df">¶</a></h3><p>This dataset has information relevant to the number of enrolled students per country and includes various metrics related to education, such as enrollment rates, education levels, and potentially regional or demographic breakdowns.</p>
 </div>
 </div>
 </div>
-</div></section></section><section><section>
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Display head (2 first rows)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Students Enrolment DataFrame:"</span><span class="p">,</span> <span class="n">students_df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">2</span><span class="p">),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="c1"># Size display and features</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Size:</span><span class="se">\n</span><span class="s2">Rows: </span><span class="si">{</span><span class="n">students_df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">, Columns: </span><span class="si">{</span><span class="n">students_df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Student enrolment columns:"</span><span class="p">,</span> <span class="n">students_df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">tolist</span><span class="p">(),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><em><strong>Processing Data:</strong></em></p>
-<p>We will progresively remove or handle missing values, correcting or convert data types accurately, filtering out unnecessary rows or columns, transforming data by normalizing, scaling, or aggregating to ensure consistency and usability.</p>
+<h2 id="Processing-Data">Processing Data<a class="anchor-link" href="#Processing-Data">¶</a></h2><p>We will progresively remove or handle missing values, correcting or convert data types accurately, filtering out unnecessary rows or columns, transforming data by normalizing, scaling, or aggregating to ensure consistency and usability.</p>
 </div>
 </div>
 </div>
@@ -7701,23 +7764,18 @@ main {
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Copy the coffee_df to a new DataFrame for processing</span>
 <span class="n">coffee2020_df</span> <span class="o">=</span> <span class="n">coffee_df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-
 <span class="c1"># 1. Remove the "coffeeConsumptionByCountry_perCapitaCons2016" feature</span>
 <span class="n">coffee2020_df</span> <span class="o">=</span> <span class="n">coffee2020_df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">'coffeeConsumptionByCountry_perCapitaCons2016'</span><span class="p">])</span>
-
 <span class="c1"># 2. Rename columns for clarity</span>
 <span class="n">coffee2020_df</span> <span class="o">=</span> <span class="n">coffee2020_df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span>
     <span class="s1">'coffeeConsumptionByCountry_perCapitaCons2020'</span><span class="p">:</span> <span class="s1">'Coffee per capita in 2020 (KG)'</span><span class="p">,</span>
     <span class="s1">'country'</span><span class="p">:</span> <span class="s1">'Country'</span>
 <span class="p">})</span>
-
 <span class="c1"># 3. Remove rows with missing values or "0"</span>
 <span class="n">coffee2020_df</span> <span class="o">=</span> <span class="n">coffee2020_df</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
 <span class="n">coffee2020_df</span> <span class="o">=</span> <span class="n">coffee2020_df</span><span class="p">[</span><span class="n">coffee2020_df</span><span class="p">[</span><span class="s1">'Coffee per capita in 2020 (KG)'</span><span class="p">]</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">]</span>
-
 <span class="c1"># Convert the 'Coffee per capita in 2020 (KG)' column to float</span>
 <span class="n">coffee2020_df</span><span class="p">[</span><span class="s1">'Coffee per capita in 2020 (KG)'</span><span class="p">]</span> <span class="o">=</span> <span class="n">coffee2020_df</span><span class="p">[</span><span class="s1">'Coffee per capita in 2020 (KG)'</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
-
 <span class="c1"># 5. Set 'Country' as the dataset index</span>
 <span class="n">coffee2020_df</span> <span class="o">=</span> <span class="n">coffee2020_df</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">'Country'</span><span class="p">)</span>
 </pre></div>
@@ -7957,7 +8015,7 @@ main {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>EdStats:</strong></p>
-<p>This dataframe requires to carry on a particulary more complex approach. since we first need to find what "Series" we want to filter first. Before following our typical processing approach. It's important to create an <em>"enrolment_df"</em> where we will use "str.contains()" method to filter all the series with the word enrolment in the Series column.
+<p>This dataframe requires to carry on a particulary more complex approach. since we first need to find what "Series" we want to filter first. Before following our typical processing approach. It's important to create an <em>"enrolment_df"</em> where we will use "str.contains()" method to filter all the series with the word enrolment in the Series column. 
 We display the different titles in series using the "unique()" method, displaying every single unique value.</p>
 </div>
 </div>
@@ -8154,12 +8212,9 @@ We display the different titles in series using the "unique()" method, displayin
     <span class="s1">'Canada'</span><span class="p">:</span> <span class="s1">'North America'</span><span class="p">,</span>  <span class="c1"># Canada in North America</span>
     <span class="s1">'Poland'</span><span class="p">:</span> <span class="s1">'Europe &amp; Central Asia'</span><span class="p">,</span>  <span class="c1"># Poland in Europe</span>
     <span class="s1">'Saudi Arabia'</span><span class="p">:</span> <span class="s1">'Middle East &amp; North Africa'</span><span class="p">,</span>  <span class="c1"># Saudi Arabia in the Middle East</span>
-    <span class="s1">'Australia'</span><span class="p">:</span> <span class="s1">'Australia &amp; Pacific'</span><span class="p">,</span>  <span class="c1"># Australia in Oceania</span>
+    <span class="s1">'Australia'</span><span class="p">:</span> <span class="s1">'East Asia &amp; Pacific'</span><span class="p">,</span>  <span class="c1"># Australia in Oceania</span>
     <span class="s1">'United Arab Emirates'</span><span class="p">:</span> <span class="s1">'Middle East &amp; North Africa'</span>  <span class="c1"># UAE in the Middle East</span>
 <span class="p">}</span>
-
-<span class="c1"># Display the mapping</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">country_to_region_mapping</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8190,11 +8245,18 @@ We display the different titles in series using the "unique()" method, displayin
 <span class="c1"># Now, map the 'Country' (index) to 'Region' using the country_to_region_mapping</span>
 <span class="n">habits2020_REG</span><span class="p">[</span><span class="s1">'Region'</span><span class="p">]</span> <span class="o">=</span> <span class="n">habits2020_REG</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">country_to_region_mapping</span><span class="p">)</span>
 
+
+<span class="c1"># Group by 'Region' and compute the mean for each region</span>
+<span class="n">habits2020_REG</span> <span class="o">=</span> <span class="n">habits2020_REG</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+
+<span class="c1"># Optional: Reset index if you want 'Region' as a column instead of the index</span>
+<span class="n">habits2020_REG</span> <span class="o">=</span> <span class="n">habits2020_REG</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+
+<span class="c1"># Print or inspect the new DataFrame</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">habits2020_REG</span><span class="p">)</span>
+
 <span class="c1"># Set 'Region' as the new index</span>
 <span class="n">habits2020_REG</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-
-<span class="c1"># Display the updated DataFrame to verify the changes</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">habits2020_REG</span><span class="p">)</span>
 
 <span class="c1"># Display the size of the resulting DataFrame</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Size of habits2020_REG:"</span><span class="p">,</span> <span class="n">habits2020_REG</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
@@ -8211,7 +8273,7 @@ We display the different titles in series using the "unique()" method, displayin
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Now we will merge habits2020_REG with edstats2020_df. Finally achieving our goal target habits_vs_education_df.</p>
-<p><em><strong>habits_vs_education_df:</strong></em></p>
+<p>*<strong>habits_vs_education_df:</strong>*</p>
 </div>
 </div>
 </div>
@@ -8246,8 +8308,23 @@ We display the different titles in series using the "unique()" method, displayin
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><em><strong>DATA VIZUALIZATION</strong></em></p>
-<p>Now we will display the relevant data:</p>
+<h2 id="DATA-VIZUALIZATION">DATA VIZUALIZATION<a class="anchor-link" href="#DATA-VIZUALIZATION">¶</a></h2><p>Now we will display the relevant data some of the processed and arranged data. From habits_vs_education_df we will collect the data we need for each graphic desired to be displayed, as listed below:</p>
+<ul>
+<li>figure1 will display of the contrast of smoking by gender for each region or country using the dataset "habits_vs_education_df" since it has the smokers by gender of each region.</li>
+<li>figure2 will display the 'habits' by region</li>
+<li>figure3 will display the contrast between habits and students.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Comparison-of-smokers-consumption-by-gender-per-region">Comparison of smokers consumption by gender per region<a class="anchor-link" href="#Comparison-of-smokers-consumption-by-gender-per-region">¶</a></h3><p>In order to organize this data we will first create a table called 'fig1_df' which will hold only <em>Male smoking rate in 2020(%)</em> and <em>Female smoking rate in 2020(%)</em>. Then we will simplify the names, create a figure and create the bars and stack 'Female Smoking Rate' bar on top of the 'Male Smoking Rate' bar to create a visual effect of a cigarette and it's filter.</p>
 </div>
 </div>
 </div>
@@ -8259,68 +8336,48 @@ We display the different titles in series using the "unique()" method, displayin
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Set the style for the plot (seaborn style for modern look)</span>
-<span class="n">sns</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">style</span><span class="o">=</span><span class="s2">"whitegrid"</span><span class="p">,</span> <span class="n">palette</span><span class="o">=</span><span class="s2">"pastel"</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Prepare the data for the table</span>
+<span class="n">fig1_df</span> <span class="o">=</span> <span class="n">habits_vs_education_df</span><span class="p">[[</span><span class="s1">'Male smoking rate in 2020(%)'</span><span class="p">,</span> <span class="s1">'Female smoking rate in 2020(%)'</span><span class="p">]]</span>
+<span class="n">fig1_df</span><span class="o">.</span><span class="n">index</span> <span class="o">=</span> <span class="n">habits_vs_education_df</span><span class="o">.</span><span class="n">index</span>  <span class="c1"># Ensure Region is set as the index</span>
+<span class="n">fig1_df</span> <span class="o">=</span> <span class="n">fig1_df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span>
+    <span class="s1">'Male smoking rate in 2020(%)'</span><span class="p">:</span> <span class="s1">'Male Smoking Rate (%)'</span><span class="p">,</span>
+    <span class="s1">'Female smoking rate in 2020(%)'</span><span class="p">:</span> <span class="s1">'Female Smoking Rate (%)'</span>
+<span class="p">})</span>
 
-<span class="c1"># Prepare data for the plot</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">habits_vs_education_df</span><span class="p">[[</span><span class="s1">'Male smoking rate in 2020(%)'</span><span class="p">,</span> <span class="s1">'Female smoking rate in 2020(%)'</span><span class="p">]]</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">T</span>
-<span class="n">df</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="n">habits_vs_education_df</span><span class="o">.</span><span class="n">index</span>
-
-<span class="c1"># Reset index and melt the data</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span><span class="o">.</span><span class="n">melt</span><span class="p">(</span><span class="n">id_vars</span><span class="o">=</span><span class="s1">'index'</span><span class="p">,</span> <span class="n">value_vars</span><span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">[</span><span class="mi">1</span><span class="p">:],</span> <span class="n">var_name</span><span class="o">=</span><span class="s1">'Region'</span><span class="p">,</span> <span class="n">value_name</span><span class="o">=</span><span class="s1">'Smoking Rate'</span><span class="p">)</span>
-
-<span class="c1"># Create the figure and axes</span>
+<span class="c1"># Create a horizontal bar chart for Female smoking rate over Male smoking rate</span>
 <span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
 
-<span class="c1"># Set the background color inside the graph area</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="s1">'#f4f4f9'</span><span class="p">)</span>  <span class="c1"># Light grey background for the plot area</span>
+<span class="c1"># Plot Male smoking rate bars</span>
+<span class="n">male_bars</span> <span class="o">=</span> <span class="n">ax</span><span class="o">.</span><span class="n">barh</span><span class="p">(</span><span class="n">fig1_df</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">fig1_df</span><span class="p">[</span><span class="s1">'Male Smoking Rate (%)'</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="s1">'#fafafa'</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Male Smoking Rate'</span><span class="p">)</span>
 
-<span class="c1"># Set the outer background color for the figure</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">gcf</span><span class="p">()</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="s1">'#1c1c1e'</span><span class="p">)</span>  <span class="c1"># Dark background outside the plot</span>
+<span class="c1"># Plot Female smoking rate bars over Male smoking rate</span>
+<span class="n">female_bars</span> <span class="o">=</span> <span class="n">ax</span><span class="o">.</span><span class="n">barh</span><span class="p">(</span><span class="n">fig1_df</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">fig1_df</span><span class="p">[</span><span class="s1">'Female Smoking Rate (%)'</span><span class="p">],</span> 
+                      <span class="n">left</span><span class="o">=</span><span class="n">fig1_df</span><span class="p">[</span><span class="s1">'Male Smoking Rate (%)'</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="s1">'#ff7f0e'</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Female Smoking Rate'</span><span class="p">)</span>
 
-<span class="c1"># Define the colors for Male and Female</span>
-<span class="n">male_color</span> <span class="o">=</span> <span class="s1">'#e0e0e0'</span>  <span class="c1"># Soft grey for Male data</span>
-<span class="n">female_color</span> <span class="o">=</span> <span class="s1">'#ffb74d'</span>  <span class="c1"># Soft orange for Female data</span>
+<span class="c1"># Customize the chart</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">'Female vs. Male Smoking Rates by Region (2020)'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="s1">'bold'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'white'</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">'Smoking Rate (%)'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="s1">'bold'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'white'</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="s1">'bold'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'white'</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="s1">'#0c0c0c'</span><span class="p">)</span>  <span class="c1"># Inner chart background color</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">patch</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="s1">'#0c0c1b'</span><span class="p">)</span>  <span class="c1"># Outer background color</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">colors</span><span class="o">=</span><span class="s1">'white'</span><span class="p">)</span>  <span class="c1"># Set tick label color to white</span>
 
-<span class="c1"># Pivot the data to get Male and Female rates side by side for each region</span>
-<span class="n">df_pivot</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">pivot_table</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="s1">'Region'</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="s1">'index'</span><span class="p">,</span> <span class="n">values</span><span class="o">=</span><span class="s1">'Smoking Rate'</span><span class="p">)</span>
+<span class="c1"># Add legend to the right of the chart with customized font color and background</span>
+<span class="n">legend</span> <span class="o">=</span> <span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s1">'Gender'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">title_fontsize</span><span class="o">=</span><span class="mi">13</span><span class="p">,</span> <span class="n">loc</span><span class="o">=</span><span class="s1">'center left'</span><span class="p">,</span> 
+                   <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="mf">1.05</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">),</span> <span class="n">frameon</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>  <span class="c1"># Enable legend frame</span>
 
-<span class="c1"># Create the stacked bar chart</span>
-<span class="n">ind</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df_pivot</span><span class="p">))</span>  <span class="c1"># Set the position for the bars</span>
-<span class="n">bar_width</span> <span class="o">=</span> <span class="mf">0.8</span>  <span class="c1"># Width of the bars</span>
+<span class="c1"># Customize legend background and font colors</span>
+<span class="n">legend</span><span class="o">.</span><span class="n">get_frame</span><span class="p">()</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="s1">'#2f2f2f'</span><span class="p">)</span>  <span class="c1"># Set background color</span>
+<span class="n">legend</span><span class="o">.</span><span class="n">get_frame</span><span class="p">()</span><span class="o">.</span><span class="n">set_edgecolor</span><span class="p">(</span><span class="s1">'white'</span><span class="p">)</span>    <span class="c1"># Set edge color (optional)</span>
+<span class="n">legend</span><span class="o">.</span><span class="n">get_frame</span><span class="p">()</span><span class="o">.</span><span class="n">set_linewidth</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>          <span class="c1"># Adjust frame thickness</span>
+<span class="n">legend</span><span class="o">.</span><span class="n">get_title</span><span class="p">()</span><span class="o">.</span><span class="n">set_color</span><span class="p">(</span><span class="s1">'white'</span><span class="p">)</span>        <span class="c1"># Set title font color</span>
+<span class="k">for</span> <span class="n">text</span> <span class="ow">in</span> <span class="n">legend</span><span class="o">.</span><span class="n">get_texts</span><span class="p">():</span>
+    <span class="n">text</span><span class="o">.</span><span class="n">set_color</span><span class="p">(</span><span class="s1">'white'</span><span class="p">)</span>  <span class="c1"># Set label font color</span>
 
-<span class="c1"># Plot male and female smoking rates stacked by region</span>
-<span class="n">male_bars</span> <span class="o">=</span> <span class="n">ax</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">ind</span><span class="p">,</span> <span class="n">df_pivot</span><span class="p">[</span><span class="s1">'Male smoking rate in 2020(%)'</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="n">male_color</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Male Smoking Rate'</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="n">bar_width</span><span class="p">)</span>
-<span class="n">female_bars</span> <span class="o">=</span> <span class="n">ax</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">ind</span><span class="p">,</span> <span class="n">df_pivot</span><span class="p">[</span><span class="s1">'Female smoking rate in 2020(%)'</span><span class="p">],</span> <span class="n">bottom</span><span class="o">=</span><span class="n">df_pivot</span><span class="p">[</span><span class="s1">'Male smoking rate in 2020(%)'</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="n">female_color</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Female Smoking Rate'</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="n">bar_width</span><span class="p">)</span>
-
-<span class="c1"># Add totals inside each bar</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df_pivot</span><span class="p">)):</span>
-    <span class="n">total</span> <span class="o">=</span> <span class="n">df_pivot</span><span class="p">[</span><span class="s1">'Male smoking rate in 2020(%)'</span><span class="p">][</span><span class="n">i</span><span class="p">]</span> <span class="o">+</span> <span class="n">df_pivot</span><span class="p">[</span><span class="s1">'Female smoking rate in 2020(%)'</span><span class="p">][</span><span class="n">i</span><span class="p">]</span>
-    <span class="n">ax</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="n">ind</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">total</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="sa">f</span><span class="s1">'</span><span class="si">{</span><span class="n">total</span><span class="si">:</span><span class="s1">.1f</span><span class="si">}</span><span class="s1">%'</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s1">'center'</span><span class="p">,</span> <span class="n">va</span><span class="o">=</span><span class="s1">'center'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'#333333'</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="s1">'bold'</span><span class="p">)</span>
-
-<span class="c1"># Title and labels with custom fonts</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">'Smoking Rates by Gender and Region in 2020'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="s1">'bold'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'#666666'</span><span class="p">)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">'Smoking Rate (%)'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="s1">'bold'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'#666666'</span><span class="p">)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="s1">'bold'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'#666666'</span><span class="p">)</span>
-
-<span class="c1"># Set region labels on x-axis with better readability</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">set_xticks</span><span class="p">(</span><span class="n">ind</span><span class="p">)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">(</span><span class="n">df_pivot</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">90</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'#A5A5A5'</span><span class="p">)</span>
-
-<span class="c1"># Set y-axis labels' font size and color using tick_params</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">yaxis</span><span class="o">.</span><span class="n">set_tick_params</span><span class="p">(</span><span class="n">labelsize</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">labelcolor</span><span class="o">=</span><span class="s1">'#A5A5A5'</span><span class="p">)</span>
-
-<span class="c1"># Move the legend outside the plot area (right side)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">'Gender'</span><span class="p">,</span> <span class="n">title_fontsize</span><span class="o">=</span><span class="mi">13</span><span class="p">,</span> <span class="n">loc</span><span class="o">=</span><span class="s1">'upper left'</span><span class="p">,</span> <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="mf">1.05</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
-
-<span class="c1"># Add a grid for easier comparison with a lighter color</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="s1">'y'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'--'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.7</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'#f0C0C0'</span><span class="p">)</span>  <span class="c1"># Lighter grid color</span>
-
-<span class="c1"># Adjust layout to prevent clipping and ensure everything fits nicely</span>
+<span class="c1"># Adjust layout to prevent clipping</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
 
-<span class="c1"># Show the plot</span>
+<span class="c1"># Display the chart</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -8334,7 +8391,147 @@ We display the different titles in series using the "unique()" method, displayin
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Comparison of smokers consumption by gender.</strong></p>
+<h2 id="Habbits-rates-between-the-Regions:">Habbits rates between the Regions:<a class="anchor-link" href="#Habbits-rates-between-the-Regions:">¶</a></h2><p>Using the Smoking, Gamers and Coffee data we will normalize them in order for the highest value in each column to be one and in this way scale up each value.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Normalize data for comparison</span>
+<span class="n">normalized_smoking</span> <span class="o">=</span> <span class="n">habits_vs_education_df</span><span class="p">[</span><span class="s1">'Smoking rate in 2020(%)'</span><span class="p">]</span> <span class="o">/</span> <span class="n">habits_vs_education_df</span><span class="p">[</span><span class="s1">'Smoking rate in 2020(%)'</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
+<span class="n">normalized_gamers</span> <span class="o">=</span> <span class="n">habits_vs_education_df</span><span class="p">[</span><span class="s1">'Gamers in 2019(MM)'</span><span class="p">]</span> <span class="o">/</span> <span class="n">habits_vs_education_df</span><span class="p">[</span><span class="s1">'Gamers in 2019(MM)'</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
+<span class="n">normalized_coffee</span> <span class="o">=</span> <span class="n">habits_vs_education_df</span><span class="p">[</span><span class="s1">'Coffee per capita in 2020 (KG)'</span><span class="p">]</span> <span class="o">/</span> <span class="n">habits_vs_education_df</span><span class="p">[</span><span class="s1">'Coffee per capita in 2020 (KG)'</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
+
+<span class="c1"># Plot multi-line chart</span>
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+
+<span class="c1"># Plot the lines</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">habits_vs_education_df</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">normalized_smoking</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Smoking Rate'</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">'o'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'#1f77b4'</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">habits_vs_education_df</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">normalized_gamers</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Gamers'</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">'s'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'#ff69b4'</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">habits_vs_education_df</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">normalized_coffee</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Coffee Consumption'</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">'^'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'#2ca02c'</span><span class="p">)</span>
+
+<span class="c1"># Customize chart</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'white'</span><span class="p">)</span>  <span class="c1"># Font color for x-axis</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">'Normalized Values of the Habits'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'white'</span><span class="p">)</span>  <span class="c1"># Font color for y-axis</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">'Trends in Smoking, Gamers, and Coffee Consumption by Region'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'white'</span><span class="p">)</span>  <span class="c1"># Font color for title</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xticks</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">habits_vs_education_df</span><span class="o">.</span><span class="n">index</span><span class="p">)))</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">(</span><span class="n">habits_vs_education_df</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">45</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s1">'right'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'white'</span><span class="p">)</span>  <span class="c1"># Font color for xticklabels</span>
+
+<span class="c1"># Set background color (both inner and outer)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="s1">'#0c0c0c'</span><span class="p">)</span>  <span class="c1"># Inner background color</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">patch</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="s1">'#0c0c1b'</span><span class="p">)</span>  <span class="c1"># Outer background color</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">colors</span><span class="o">=</span><span class="s1">'white'</span><span class="p">)</span>  <span class="c1"># Set tick label color to white</span>
+
+<span class="c1"># Set the color of the axis lines (spines) to white</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">spines</span><span class="p">[</span><span class="s1">'top'</span><span class="p">]</span><span class="o">.</span><span class="n">set_color</span><span class="p">(</span><span class="s1">'white'</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">spines</span><span class="p">[</span><span class="s1">'bottom'</span><span class="p">]</span><span class="o">.</span><span class="n">set_color</span><span class="p">(</span><span class="s1">'white'</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">spines</span><span class="p">[</span><span class="s1">'left'</span><span class="p">]</span><span class="o">.</span><span class="n">set_color</span><span class="p">(</span><span class="s1">'white'</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">spines</span><span class="p">[</span><span class="s1">'right'</span><span class="p">]</span><span class="o">.</span><span class="n">set_color</span><span class="p">(</span><span class="s1">'white'</span><span class="p">)</span>
+
+<span class="c1"># Move legend to the right of the plot</span>
+<span class="n">legend</span> <span class="o">=</span> <span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">'upper left'</span><span class="p">,</span> <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="mf">1.05</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="n">title</span><span class="o">=</span><span class="s1">'Habits'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">title_fontsize</span><span class="o">=</span><span class="mi">13</span><span class="p">,</span> <span class="n">frameon</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># Customize legend background and font colors</span>
+<span class="n">legend</span><span class="o">.</span><span class="n">get_frame</span><span class="p">()</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="s1">'#2f2f2f'</span><span class="p">)</span>  <span class="c1"># Set background color for legend box</span>
+<span class="n">legend</span><span class="o">.</span><span class="n">get_frame</span><span class="p">()</span><span class="o">.</span><span class="n">set_edgecolor</span><span class="p">(</span><span class="s1">'white'</span><span class="p">)</span>    <span class="c1"># Set edge color for the legend box</span>
+<span class="n">legend</span><span class="o">.</span><span class="n">get_frame</span><span class="p">()</span><span class="o">.</span><span class="n">set_linewidth</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>          <span class="c1"># Set line width for the legend box</span>
+<span class="n">legend</span><span class="o">.</span><span class="n">get_title</span><span class="p">()</span><span class="o">.</span><span class="n">set_color</span><span class="p">(</span><span class="s1">'white'</span><span class="p">)</span>        <span class="c1"># Set legend title font color</span>
+<span class="k">for</span> <span class="n">text</span> <span class="ow">in</span> <span class="n">legend</span><span class="o">.</span><span class="n">get_texts</span><span class="p">():</span>
+    <span class="n">text</span><span class="o">.</span><span class="n">set_color</span><span class="p">(</span><span class="s1">'white'</span><span class="p">)</span>  <span class="c1"># Set legend labels font color</span>
+
+<span class="c1"># Adjust layout to prevent clipping</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+
+<span class="c1"># Display the plot</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Habits-by-region-Vs-Students-by-region.">Habits by region Vs Students by region.<a class="anchor-link" href="#Habits-by-region-Vs-Students-by-region.">¶</a></h2><p>For our last plot we will simply normalize data one more time but this time with different scalability. The main reason is that due to the challenge of different proyected data we have (Rate, Millions and KG) we will have to normalize it all to be able of contrasting the consumption per region.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Normalize the specified columns to a range from 0 to 1 (for habits data)</span>
+<span class="n">normalized_smoking</span> <span class="o">=</span> <span class="n">habits_vs_education_df</span><span class="p">[</span><span class="s1">'Smoking rate in 2020(%)'</span><span class="p">]</span> <span class="o">/</span> <span class="n">habits_vs_education_df</span><span class="p">[</span><span class="s1">'Smoking rate in 2020(%)'</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
+<span class="n">normalized_gamers</span> <span class="o">=</span> <span class="n">habits_vs_education_df</span><span class="p">[</span><span class="s1">'Gamers in 2019(MM)'</span><span class="p">]</span> <span class="o">/</span> <span class="n">habits_vs_education_df</span><span class="p">[</span><span class="s1">'Gamers in 2019(MM)'</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
+<span class="n">normalized_coffee</span> <span class="o">=</span> <span class="n">habits_vs_education_df</span><span class="p">[</span><span class="s1">'Coffee per capita in 2020 (KG)'</span><span class="p">]</span> <span class="o">/</span> <span class="n">habits_vs_education_df</span><span class="p">[</span><span class="s1">'Coffee per capita in 2020 (KG)'</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
+
+<span class="c1"># Normalize 'Students in 2019-20' to a range from 0 to 3</span>
+<span class="n">normalized_students</span> <span class="o">=</span> <span class="n">habits_vs_education_df</span><span class="p">[</span><span class="s1">'Students in 2019-20'</span><span class="p">]</span> <span class="o">/</span> <span class="n">habits_vs_education_df</span><span class="p">[</span><span class="s1">'Students in 2019-20'</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span> <span class="o">*</span> <span class="mi">3</span>
+
+<span class="c1"># Create the new DataFrame fig3_df with the normalized values</span>
+<span class="n">fig3_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">'Normalized Smoking Rate'</span><span class="p">:</span> <span class="n">normalized_smoking</span><span class="p">,</span>
+    <span class="s1">'Normalized Gamers'</span><span class="p">:</span> <span class="n">normalized_gamers</span><span class="p">,</span>
+    <span class="s1">'Normalized Coffee Consumption'</span><span class="p">:</span> <span class="n">normalized_coffee</span><span class="p">,</span>
+    <span class="s1">'Normalized Students'</span><span class="p">:</span> <span class="n">normalized_students</span>
+<span class="p">})</span>
+
+<span class="c1"># Merge 'China' with 'East Asia &amp; Pacific' by adding their values</span>
+<span class="n">fig3_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s1">'East Asia &amp; Pacific'</span><span class="p">]</span> <span class="o">=</span> <span class="n">fig3_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s1">'China'</span><span class="p">]</span> <span class="o">+</span> <span class="n">fig3_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s1">'East Asia &amp; Pacific'</span><span class="p">]</span>
+<span class="n">fig3_df</span> <span class="o">=</span> <span class="n">fig3_df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">'China'</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+
+<span class="c1"># Create the positions for the bars (the x-axis for the bars)</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">fig3_df</span><span class="p">))</span>  <span class="c1"># Positions for the bars</span>
+<span class="n">width</span> <span class="o">=</span> <span class="mf">0.35</span>  <span class="c1"># Width of the bars</span>
+
+<span class="c1"># Plotting the stacked bar chart</span>
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+
+<span class="c1"># Plot each of the habits on top of each other</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">fig3_df</span><span class="p">[</span><span class="s1">'Normalized Smoking Rate'</span><span class="p">],</span> <span class="n">width</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Smoking Rate'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'#1f77b4'</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">fig3_df</span><span class="p">[</span><span class="s1">'Normalized Gamers'</span><span class="p">],</span> <span class="n">width</span><span class="p">,</span> <span class="n">bottom</span><span class="o">=</span><span class="n">fig3_df</span><span class="p">[</span><span class="s1">'Normalized Smoking Rate'</span><span class="p">],</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Gamers'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'#ff69b4'</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">fig3_df</span><span class="p">[</span><span class="s1">'Normalized Coffee Consumption'</span><span class="p">],</span> <span class="n">width</span><span class="p">,</span> <span class="n">bottom</span><span class="o">=</span><span class="n">fig3_df</span><span class="p">[</span><span class="s1">'Normalized Smoking Rate'</span><span class="p">]</span> <span class="o">+</span> <span class="n">fig3_df</span><span class="p">[</span><span class="s1">'Normalized Gamers'</span><span class="p">],</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Coffee Consumption'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'#2ca02c'</span><span class="p">)</span>
+
+<span class="c1"># Plot the normalized students next to the stacked habits bar</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="n">width</span><span class="p">,</span> <span class="n">fig3_df</span><span class="p">[</span><span class="s1">'Normalized Students'</span><span class="p">],</span> <span class="n">width</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Students'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'#d62728'</span><span class="p">)</span>
+
+<span class="c1"># Customize chart</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'white'</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">'Normalized Values'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'white'</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">'Comparison of Habits and Students by Region'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'white'</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xticks</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="n">width</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span>  <span class="c1"># Position the labels between bars</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">(</span><span class="n">fig3_df</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">45</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s1">'right'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'white'</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="s1">'x'</span><span class="p">,</span> <span class="n">colors</span><span class="o">=</span><span class="s1">'white'</span><span class="p">)</span>  <span class="c1"># Set the x-axis tick color to white</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="s1">'y'</span><span class="p">,</span> <span class="n">colors</span><span class="o">=</span><span class="s1">'white'</span><span class="p">)</span>  <span class="c1"># Set the y-axis tick color to white</span>
+
+<span class="c1"># Set background color</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="s1">'#0c0c0c'</span><span class="p">)</span>  <span class="c1"># Inner background color</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">patch</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="s1">'#0c0c1b'</span><span class="p">)</span>  <span class="c1"># Outer background color</span>
+
+<span class="c1"># Add a legend to the right of the plot</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">'upper left'</span><span class="p">,</span> <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="mf">1.05</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="n">title</span><span class="o">=</span><span class="s1">'Categories'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">title_fontsize</span><span class="o">=</span><span class="mi">13</span><span class="p">)</span>
+
+<span class="c1"># Adjust layout to avoid clipping</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+
+<span class="c1"># Display the plot</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
 </div>
 </div>
 </div>
@@ -8363,10 +8560,7 @@ require(
             history: true,
             transition: "slide",
             slideNumber: "",
-            plugins: [RevealNotes],
-            width: 960,
-			      height: 700,
-
+            plugins: [RevealNotes]
         });
 
         var update = function(event){
