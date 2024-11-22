@@ -1,0 +1,29 @@
+1. **Introduction (1 Slide, 1 Subgrade)**
+   - Justify project choice (beyond passing the module).
+   - Explain the project’s purpose: to sell something, prove a point, or warn the public.
+   - Make it engaging and original, referencing the visualization design process.
+   - Pose novel questions that could lead to overlooked insights.
+
+2. **Data Description (2 Slides, 2 Subgrades)**
+   - Describe 3-5 data files with at least 3 features/columns.
+   - Cite sources from different platforms/accounts.
+   - Explain why you chose these datasets and how you found them.
+   - Mention the domain and initial data format/shape.
+
+3. **Visualisation Plan (3-4 Slides, 2 Subgrades)**
+   - Describe the logic and design process for the dashboard/infographic.
+   - Identify key variables and appropriate visualizations.
+   - Discuss accessibility and preventing misleading data.
+   - Present a mock-up or draft visualization.
+
+4. **Data Loading & Cleaning (6-8 Slides, 3 Subgrades)**
+   - Describe steps for loading and cleaning data for visualization.
+   - Include pseudocode, screenshots, or tables for clarity.
+   - Ensure reproducibility of data manipulation.
+   - Include key techniques: missing data handling, feature creation, data exploration, merging, and aggregation.
+
+5. **Dashboard or Infographic (4 Subgrades)**
+   - Create 6-8 "number stories" using impactful visuals (graphs, maps, time series, etc.).
+   - Ensure clarity and visual appeal.
+   - Make it shareable and easy to understand.
+   - Submit all source files and ensure no changes after the deadline.
