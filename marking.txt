@@ -21,6 +21,11 @@
    - Include pseudocode, screenshots, or tables for clarity.
    - Ensure reproducibility of data manipulation.
    - Include key techniques: missing data handling, feature creation, data exploration, merging, and aggregation.
+      ☻ Missing data handling 
+      • One change or creation of a new feature
+      • One technique to handle/explore rows for at least one of the data files
+      • At least one merging between a minimum of two data files
+      • One data aggregation OR melt/pivot of a data file before/after the merge
 
 5. **Dashboard or Infographic (4 Subgrades)**
    - Create 6-8 "number stories" using impactful visuals (graphs, maps, time series, etc.).
